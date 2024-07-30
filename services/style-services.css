@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    background-color: snow;
+    padding: 10px;
+    justify-content:space-between;
+    align-items: center;    
+}
+
+body {
+    display: grid;
+    place-items: center;
+    
+}
+
+main {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+main > header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 1rem;
+}
+
+main > .products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    justify-content: stretch;
+    gap: 1rem;
+    width: 100%;
+  }
+  
+  /* .product > .image {
+    position: relative;
+  } 
+  Τηινκ Ι ςοθλδ νεεδ τηισ φορ τηε βθττονσ  
+  */
+
+#see-all {
+    border-color: darkgrey;
+    border-radius: 50px;
+    height: 30px;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px
+
+}
