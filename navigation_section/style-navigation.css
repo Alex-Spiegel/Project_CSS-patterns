@@ -10,7 +10,6 @@
 }
 
 main {
-    background-color:whitesmoke;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 100px 220px 200px 80px 200px;
@@ -21,7 +20,6 @@ main {
     "container06 container06 container05"
     "container06 container06 container07";
     gap: 10px;
-
     padding: 20px;
 
 
