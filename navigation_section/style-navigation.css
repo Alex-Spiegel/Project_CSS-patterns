@@ -1,0 +1,28 @@
+.container {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+main {
+    background-color:whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 220px 200px 80px 200px;
+    grid-template-areas:
+    "container01 container02 container03"
+    "container04 container04 container03"
+    "container04 container04 container05"
+    "container06 container06 container05"
+    "container06 container06 container07";
+    gap: 10px;
+
+    padding: 20px;
+
+
+}
